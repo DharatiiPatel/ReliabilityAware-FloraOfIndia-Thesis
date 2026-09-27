@@ -1,0 +1,26 @@
+Elevation Gradient Analysis — primary set summary
+==================================================
+Date: 2026-09-26 16:52:03.502225
+ECOLOGY_SET: primary
+Input PCA: /scratch/dp23301/Thesis/Processed Data/experiments/expansion/step05b_outputs/species_color_environment_final_expanded.csv
+Input env: /scratch/dp23301/Thesis/Processed Data/experiments/expansion/step05b_outputs/species_environment_trimmed.csv
+pca_sha256: 9d1e0f03fe774a7fcb19815a91341b8b55bdc79d133a2a9359a3d32967938280
+env_sha256: 2a73af2f5b5c05041ec007ac531f8f759b0dc9b0239ea4713f59ff520d936c30
+label_source: historical_primary_V1
+v1_script_sha256: 5bfdb1079e7cd114c3b1d0ce9d14558c91b15548506bc3a29bcbb6ea3a9bdf96
+Species analysed: 1438
+Elevation range (m): 12 - 4901
+SKIP_ELEV_MCMC: FALSE
+Chains per colour: 3
+Seeds: 42,123,456
+nitt/burnin/thin: 1050000 50000 100
+
+Chi-square (colour x band):
+
+	Pearson's Chi-squared test
+
+data:  chi_tab
+X-squared = 31.246, df = 8, p-value = 0.000127
+
+
+Outputs under: /scratch/dp23301/Thesis/Processed Data/experiments/expansion/step08_outputs

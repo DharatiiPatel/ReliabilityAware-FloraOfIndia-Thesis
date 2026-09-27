@@ -1,0 +1,5 @@
+model,n,acc_v1,kappa_v1,macro_f1_target4_v1,macro_f1_all5_v1,wrong_v1,acc_v2,kappa_v2,macro_f1_target4_v2,macro_f1_all5_v2,wrong_v2,delta_acc,categorizer_name,categorizer_version,categorizer_sha256,primary_anchor_n,evaluation_note
+baseline,97,0.7629,0.6956,0.8035,0.6428,23,0.7835,0.7178,0.8053,0.6442,21,0.0206,V2,2,0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df,1438,Same gold set used in method development; not external validation
+qwen7b,98,0.8776,0.8352,0.8745,0.6996,12,0.9286,0.9052,0.9405,0.7524,7,0.051,V2,2,0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df,1438,Same gold set used in method development; not external validation
+qwen72b,98,0.8776,0.8348,0.8735,0.6988,12,0.9184,0.8911,0.9294,0.7435,8,0.0408,V2,2,0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df,1438,Same gold set used in method development; not external validation
+llama70b,98,0.8571,0.8077,0.8606,0.6884,14,0.9184,0.8913,0.9326,0.7461,8,0.0612,V2,2,0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df,1438,Same gold set used in method development; not external validation

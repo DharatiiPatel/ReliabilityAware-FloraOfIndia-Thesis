@@ -1,0 +1,6 @@
+phase	inputs	labels	geography	model	seeds	nitt	burnin	thin	outputs	status
+primary_ecology	expansion/step05b_outputs/species_color_environment_final_expanded.csv	historical_V1_published	global_realized_niche_retained_PCs	is_* ~ PC1-10 + genus	42;123;456	1050000	50000	100	expansion/step06_outputs/	HISTORICAL_PRIMARY
+categorizer_evaluation	gold_set_labeled + stored model preds	V1_vs_V2 via scripts/14	n/a	n/a	n/a	n/a	n/a	n/a	categorizer_evaluation/	ACTIVE
+label_sensitivity	primary n=1438 + reliability free text	V2 per LLM equal cohort	same PCs as primary	is_* ~ PC1-10 + genus	42;123;456	1050000	50000	100	label_sensitivity/	ACTIVE
+reliability	primary n=1438 + multi-LLM free text	V2 support defs; see script 24	same PCs as primary	focal PC/elev	42;123;456	1050000	50000	100	reliability/	ACTIVE
+prediction	primary env+labels	historical or V2 sensitivity as labeled	same as primary	grouped-CV	42	n/a	n/a	n/a	prediction/	ACTIVE

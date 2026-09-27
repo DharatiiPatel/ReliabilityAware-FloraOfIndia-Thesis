@@ -1,0 +1,5 @@
+signature,count,pct,examples
+truncated_epithet_suspect,176,4.563,Aconitum ferox; Thalictrum secundum; Polyalthia simiarum; Aconitum falconer; Aconitum spicatum; Anemone geum; Anemone griff; Aquilegia moorcrol
+fruit_near_color,168,4.356,Berberis hamiltoniana; Berberis jaeschkeana; Berberis osmastonii; Thalictrum chelidonii; Tetracera akara; Michelia champaca; Michelia oblonga; Cocculus tomentosa
+cross_family_contamination,14,0.363,Arabis amplexicaulis; Stellaria decumbens; Helixanthera wallichiana; Jatropha multifida; Trigonostemon chatterjii; Cleistanthus travancorensis; Hypericum williamsii; Hopea shingkeng
+zero_O_boundary,4,0.104,Blumea sessiliflora; Oxalis corniculata; Oxalis variabilis; Ochna obtusata

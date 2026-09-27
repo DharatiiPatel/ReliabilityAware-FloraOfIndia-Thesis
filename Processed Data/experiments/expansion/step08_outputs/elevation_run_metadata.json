@@ -1,0 +1,29 @@
+{
+  "analysis_name": "primary_elevation",
+  "eco_set": "primary",
+  "n": 1438,
+  "colour_counts": {
+    "REDTYPE": 331,
+    "WHITE": 613,
+    "YELLOW": 494
+  },
+  "input_pca_path": "/scratch/dp23301/Thesis/Processed Data/experiments/expansion/step05b_outputs/species_color_environment_final_expanded.csv",
+  "input_env_path": "/scratch/dp23301/Thesis/Processed Data/experiments/expansion/step05b_outputs/species_environment_trimmed.csv",
+  "pca_sha256": "9d1e0f03fe774a7fcb19815a91341b8b55bdc79d133a2a9359a3d32967938280",
+  "env_sha256": "2a73af2f5b5c05041ec007ac531f8f759b0dc9b0239ea4713f59ff520d936c30",
+  "label_source": "historical_primary_V1",
+  "v1_script_sha256": "5bfdb1079e7cd114c3b1d0ce9d14558c91b15548506bc3a29bcbb6ea3a9bdf96",
+  "nitt": 1050000,
+  "burnin": 50000,
+  "thin": 100,
+  "seeds": [42, 123, 456],
+  "n_chains_per_model": 3,
+  "n_models": 3,
+  "mpsrf_max_threshold": 1.01,
+  "max_mpsrf": 1.0002,
+  "max_psrf": 1.0002,
+  "completion_status": "complete",
+  "convergence_status": "passed",
+  "interval": "HPD95",
+  "completed_utc": "2026-09-26T20:51:59Z"
+}

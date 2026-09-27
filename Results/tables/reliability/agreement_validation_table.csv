@@ -1,0 +1,9 @@
+quantity,n,note
+primary_ecology,1438,published 7B ecology set
+three_llm_coverage,1313,72B and Llama exist (not fascicle-only increment)
+common_known_support,1149,all three LLMs give WHITE/YELLOW/REDTYPE; 7B label used
+high_confidence,1129,"7B, 72B, Llama identical known class"
+disagreement,20,descriptive only; not a third ecology model
+unsupported_known_colour,7,"7B known class, no floral-window colour evidence"
+wrong_context_evidence,3,"colour near fruit/leaf/indument, not floral term"
+agreement_rate_on_coverage_known,0.9733,among coverage rows where 7B is known

@@ -1,0 +1,32 @@
+{
+  "n_species": 1438,
+  "n_genera": 417,
+  "class_balance": {
+    "WHITE": 613,
+    "YELLOW": 494,
+    "REDTYPE": 331
+  },
+  "n_splits": 5,
+  "seed": 42,
+  "features": [
+    "PC1",
+    "PC2",
+    "PC3",
+    "PC4",
+    "PC5",
+    "PC6",
+    "PC7",
+    "PC8",
+    "PC9",
+    "PC10"
+  ],
+  "best_env_model_grouped": "random_forest",
+  "best_model_selection": "max macro-F1 under 5-fold StratifiedGroupKFold among logreg and random_forest; same CV used for selection and performance estimation (not nested CV)",
+  "bootstrap_grouped_cv": "genus_cluster",
+  "bootstrap_ungrouped_cv": "species",
+  "genus_prior_interpretation": "Ungrouped genus-prior lift indicates random-split genus leakage / within-genus information leakage, not proof that biological relatedness predicts colour outside that leakage.",
+  "importance_model": "random_forest",
+  "importance_method": "permutation; mean decrease in held-out macro-F1 within each genus-grouped fold of the selected model; aggregated across folds",
+  "importance_n_repeats_per_fold": 20,
+  "importance_aggregation": "mean and sd of per-fold mean drops"
+}

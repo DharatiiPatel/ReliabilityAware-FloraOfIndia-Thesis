@@ -1,0 +1,9 @@
+cv,model,accuracy,balanced_accuracy,macro_f1_3class,macro_f1_3class_lo,macro_f1_3class_hi,bootstrap,macro_f1_3class_lo_species_boot,macro_f1_3class_hi_species_boot,f1_WHITE,f1_YELLOW,f1_REDTYPE
+genus-grouped,majority,0.4263,0.3333,0.1993,0.1849,0.2129,genus_cluster,0.1909,0.2075,0.5978,0.0,0.0
+genus-grouped,logreg,0.4325,0.3595,0.3135,0.2837,0.3442,genus_cluster,0.292,0.3348,0.5738,0.303,0.0638
+genus-grouped,random_forest,0.4131,0.3628,0.35,0.3248,0.3746,genus_cluster,0.3252,0.3753,0.534,0.3366,0.1795
+genus-grouped,genus_prior,0.4263,0.3333,0.1993,0.1849,0.2129,genus_cluster,0.1909,0.2075,0.5978,0.0,0.0
+ungrouped (leaky),majority,0.4263,0.3333,0.1993,0.1909,0.2075,species,,,0.5978,0.0,0.0
+ungrouped (leaky),logreg,0.4332,0.3617,0.3193,0.2985,0.3416,species,,,0.5772,0.3031,0.0775
+ungrouped (leaky),random_forest,0.4284,0.3819,0.3743,0.3478,0.399,species,,,0.5383,0.3593,0.2254
+ungrouped (leaky),genus_prior,0.6161,0.6015,0.6077,0.5799,0.6334,species,,,0.6385,0.6164,0.5683

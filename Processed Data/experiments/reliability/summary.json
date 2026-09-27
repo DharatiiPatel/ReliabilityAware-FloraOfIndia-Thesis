@@ -1,0 +1,60 @@
+{
+  "primary_ecology_n": 1438,
+  "three_llm_coverage_n": 1313,
+  "missing_72b_or_llama_n": 125,
+  "note_missing": "Fascicle/recovery species have Qwen-7B only. Three-LLM reliability is defined on the coverage subset, not the full n=1438.",
+  "common_known_support_n": 1149,
+  "high_confidence_n": 1129,
+  "disagreement_n": 20,
+  "primary_label": "Qwen-7B categoriser v2",
+  "consensus_models": [
+    "qwen7b",
+    "qwen72b",
+    "llama70b"
+  ],
+  "baseline_not_in_consensus": true,
+  "unknown_never_coded_as_negative": true,
+  "high_confidence_definition": "exact agreement among Qwen-7B, Qwen-72B and Llama-70B on a known WHITE/YELLOW/REDTYPE class under V2; source-text validator is a separate lexical diagnostic and does not determine cohort membership",
+  "source_text_validator": "lexical diagnostic only; not human validation; flags do not automatically exclude species from MCMC",
+  "common_known_colour_counts": {
+    "YELLOW": 432,
+    "WHITE": 394,
+    "REDTYPE": 323
+  },
+  "high_confidence_colour_counts": {
+    "YELLOW": 425,
+    "WHITE": 389,
+    "REDTYPE": 315
+  },
+  "agreement_rate_on_coverage_known": 0.9733,
+  "unsupported_known_colour_n": 7,
+  "wrong_context_n": 3,
+  "malformed_or_key_stub_n": 277,
+  "multi_colour_phrase_n": 561,
+  "high_confidence_and_supported_n": 1123,
+  "agreement_rate_on_common_known": 0.9826,
+  "ecology_common_known_sha256": "84739827efb58bf184c6d1109e4183370a185992cc80458698f1138933398cb3",
+  "ecology_high_confidence_sha256": "1566de58cba4ac1da96186e24d57104cb8e250ef804db6f381d250b1ac87d9d5",
+  "mcmc_run": {
+    "common_known_sha256": "84739827efb58bf184c6d1109e4183370a185992cc80458698f1138933398cb3",
+    "high_confidence_sha256": "1566de58cba4ac1da96186e24d57104cb8e250ef804db6f381d250b1ac87d9d5",
+    "categorizer_sha256": "0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df",
+    "nitt": 1050000,
+    "burnin": 50000,
+    "thin": 100,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "model_count": 12,
+    "chain_count": 3,
+    "completion_status": "complete",
+    "convergence_status": "passed",
+    "mpsrf_max_threshold": 1.01,
+    "max_mpsrf": 1.0005,
+    "max_psrf": 1.0003,
+    "reliability_full": 1,
+    "completed_utc": "2026-09-26T06:20:36Z"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "primary_anchor_n": 1438,
+  "categorizer_name": "V2",
+  "categorizer_version": 2,
+  "categorizer_sha256": "0fe312ceb5ac3917ebcc7a1b6b6dbe7b40ac82e6509f71967933af0714b2d9df",
+  "label_coding": "scripts/14_Categorize_v2.py on stored free text",
+  "source_specific_known_n": {
+    "baseline": 922,
+    "qwen7b": 1283,
+    "qwen72b": 1160,
+    "llama70b": 1161
+  },
+  "source_specific_known_colour_counts": {
+    "baseline": {
+      "YELLOW": 385,
+      "WHITE": 302,
+      "REDTYPE": 235
+    },
+    "qwen7b": {
+      "YELLOW": 451,
+      "WHITE": 431,
+      "REDTYPE": 401
+    },
+    "qwen72b": {
+      "YELLOW": 437,
+      "WHITE": 400,
+      "REDTYPE": 323
+    },
+    "llama70b": {
+      "YELLOW": 437,
+      "WHITE": 401,
+      "REDTYPE": 323
+    }
+  },
+  "main_cohort": {
+    "name": "llm_common",
+    "definition": "Qwen-7B \u2229 Qwen-72B \u2229 Llama-70B all known colour under V2",
+    "n": 1149,
+    "variants": [
+      "qwen7b",
+      "qwen72b",
+      "llama70b"
+    ],
+    "colour_counts_by_variant": {
+      "qwen7b": {
+        "YELLOW": 432,
+        "WHITE": 394,
+        "REDTYPE": 323
+      },
+      "qwen72b": {
+        "YELLOW": 432,
+        "WHITE": 397,
+        "REDTYPE": 320
+      },
+      "llama70b": {
+        "YELLOW": 431,
+        "WHITE": 396,
+        "REDTYPE": 322
+      }
+    },
+    "species_set_identical_across_variants": true
+  },
+  "secondary_cohort": {
+    "name": "four_source",
+    "definition": "llm_common \u2229 baseline known; rule baseline is secondary only, not in the main equal-cohort comparison",
+    "n": 912,
+    "variants": [
+      "baseline",
+      "qwen7b",
+      "qwen72b",
+      "llama70b"
+    ],
+    "colour_counts_by_variant": {
+      "baseline": {
+        "YELLOW": 381,
+        "WHITE": 298,
+        "REDTYPE": 233
+      },
+      "qwen7b": {
+        "YELLOW": 360,
+        "WHITE": 322,
+        "REDTYPE": 230
+      },
+      "qwen72b": {
+        "YELLOW": 359,
+        "WHITE": 321,
+        "REDTYPE": 232
+      },
+      "llama70b": {
+        "YELLOW": 358,
+        "WHITE": 322,
+        "REDTYPE": 232
+      }
+    },
+    "species_set_identical_across_variants": true
+  },
+  "note": "The 1,438-species primary cohort was constructed before the categorisation refinement. V2 is applied within that cohort for label sensitivity without changing the environmental species sample."
+}

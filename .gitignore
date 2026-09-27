@@ -1,0 +1,39 @@
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Large data files. Everything here is regenerable by rerunning the pipeline,
+# with one exception: the gold set carries manual labels that cannot be
+# reproduced from code, so it is force-added and tracked despite these rules.
+Processed Data/
+raw_data/
+*.csv
+*.tif
+*.zip
+*.rds
+
+# Review / delivery packages (built outside the commit; keep on disk)
+FloraOfIndia_Thesis_Technical_Package/
+FloraOfIndia_Thesis_Technical_Package_*.tar.gz
+FloraOfIndia_Thesis_Technical_Review_*.tar.gz
+MCMC_Previous_Outputs_*.tar.gz
+technical_file_inventory.tsv
+
+# Cache
+step05_gbif_cache/
+step05_env_data/
+.cache/
+__pycache__/
+*.pyc
+*.py[cod]
+
+# Local tooling (recreate with: python -m venv .venv_figs)
+.venv_figs/
+.venv_pptx/
+R_library/
+
+# Local development environments
+R_library/
+.vscode/
