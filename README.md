@@ -40,7 +40,7 @@ Thesis/
 | Gold set labelled | 98 |
 | Best gold-set accuracy | 0.949 (Qwen-7B, RAG + categoriser v2) |
 
-Always cite the categoriser with an accuracy: 0.878 is zero-shot + v1,
+The categoriser's accuracy: 0.878 is zero-shot + v1,
 0.929 is the same predictions + v2, 0.949 is RAG + v2.
 Provenance: `docs/VERIFIED_Numbers_for_Thesis.md`.
 
@@ -61,7 +61,7 @@ from an explicit override). They do **not** hard-code a cluster checkout path.
 Raw Flora PDFs, complete GBIF occurrence downloads, and the cluster software
 stack are **not** bundled in the technical package. That omission prevents a
 complete from-scratch reconstruction outside the cluster, but packaged
-derived-data audits, unit tests and figure inspection remain portable.
+derived-data audits, unit tests, and figure inspection remain portable.
 
 ```bash
 module load R/4.5.1-gfbf-2025a
