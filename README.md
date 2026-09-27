@@ -2,17 +2,6 @@
 
 MS Computer Science thesis (Dharati Patel, University of Georgia).
 
-**Contribution:** which open-LLM flower-colour labels are reliable enough for
-downstream ecological inference — not “we used LLMs to extract colour.”
-
-Protocol: three open extractors (Qwen-7B, Qwen-72B, Llama-3.3-70B) on a **fixed**
-environment-linked species list; **high confidence = exact agreement** among the
-three LLMs on a known class; a cheap **lexical** source-text check is a parallel
-diagnostic (it does not create the high-confidence cohort and does not
-automatically exclude species from MCMC). Ecology models are re-run on the
-common known-label support vs the high-confidence subset. The keyword baseline
-is a benchmark only. UNKNOWN is never coded as “not white / not yellow / not
-redtype.” Models are genus-adjusted, not phylogenetically corrected.
 
 Scripts are numbered `01a`–`28`. See `scripts/README.md`.
 Reliability chapter: `24`–`26`, `28`. Regression audit of every cited number: `27`.
